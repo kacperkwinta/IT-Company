@@ -160,8 +160,32 @@ section .wave span {
 @media (max-width: 767px) {
   .content-image-svg-pink {
     background-position-x: -140px;
-    background-position-y: 100px;
+    background-position-y: 75px;
+  }
+}
 
+.content-image-svg-yellow {
+  background: url(/cos-yellow.svg);
+  background-repeat: no-repeat;
+  background-position-x: 1450px;
+}
+
+@media (max-width: 767px) {
+  .content-image-svg-yellow {
+    background-position-x: 200px;
+    background-position-y: 250px;
+  }
+}
+
+.content-image-svg-green {
+  background: url(/cos-green.svg);
+  background-repeat: no-repeat;
+  background-position-x: 350px;
+}
+
+@media (max-width: 767px) {
+  .content-image-svg-green {
+    background-position-x: -300px;
   }
 }
 
