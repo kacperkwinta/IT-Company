@@ -85,17 +85,8 @@ section .wave span {
   animation: image 3s ease-in-out infinite alternate;
 }
 
-.main-image::after {
-  content: "";
-  position: absolute;
-  bottom: -50px;
-  left: 5%;
-  width: 90%;
-  height: 20px;
-  background: rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
-  z-index: -1;
-  filter: blur(10px);
+.main-image-last {
+  margin-bottom: 10px;
 }
 
 /* image animation */
@@ -152,6 +143,7 @@ section .wave span {
   line-height: 1.5;
   width: 700px;
   margin: 20px;
+  padding-left: 10px;
   color: white;
   font-size: 30px;
   line-height: 1.7;
