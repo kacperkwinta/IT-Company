@@ -152,8 +152,8 @@ section .wave span {
 
 @media (max-width: 767px) {
   .content-main-paragraph {
-    margin: 5;
     text-align: left;
     font-size: 22px;
+    margin: 5;
   }
 }
