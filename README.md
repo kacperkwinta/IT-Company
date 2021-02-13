@@ -1,3 +1,3 @@
 # PitosCompany
 
-https://turbobaguettes.github.io/PitosCompany/
+https://turbobaguettes.github.io/Pitos-Company/
