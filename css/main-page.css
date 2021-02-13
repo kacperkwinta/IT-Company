@@ -141,7 +141,7 @@ section .wave span {
 .content-image-svg-orange {
   background: url(../cos-orange.svg);
   background-repeat: no-repeat;
-  background-position-x: 1550px;
+  background-position-x: 1750px;
 }
 
 @media (max-width: 767px) {
