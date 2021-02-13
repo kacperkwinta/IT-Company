@@ -138,6 +138,33 @@ section .wave span {
   }
 }
 
+.content-image-svg-orange {
+  background: url(/cos-orange.svg);
+  background-repeat: no-repeat;
+  background-position-x: 1350px;
+}
+
+@media (max-width: 767px) {
+  .content-image-svg-orange {
+    background-position-x: 250px;
+    background-position-y: 300px;
+  }
+}
+
+.content-image-svg-pink {
+  background: url(/cos-pink.svg);
+  background-repeat: no-repeat;
+  background-position-x: -250px;
+}
+
+@media (max-width: 767px) {
+  .content-image-svg-pink {
+    background-position-x: -140px;
+    background-position-y: 100px;
+
+  }
+}
+
 .content-main-paragraph {
   text-align: justify;
   line-height: 1.5;
