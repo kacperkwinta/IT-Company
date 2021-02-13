@@ -141,12 +141,12 @@ section .wave span {
 .content-image-svg-orange {
   background: url(../cos-orange.svg);
   background-repeat: no-repeat;
-  background-position-x: 1350px;
+  background-position-x: 1550px;
 }
 
 @media (max-width: 767px) {
   .content-image-svg-orange {
-    background-position-x: 250px;
+    background-position-x: 200px;
     background-position-y: 300px;
   }
 }
@@ -167,7 +167,7 @@ section .wave span {
 .content-image-svg-yellow {
   background: url(../cos-yellow.svg);
   background-repeat: no-repeat;
-  background-position-x: 1450px;
+  background-position-x: 1650px;
 }
 
 @media (max-width: 767px) {
@@ -180,12 +180,14 @@ section .wave span {
 .content-image-svg-green {
   background: url(../cos-green.svg);
   background-repeat: no-repeat;
-  background-position-x: 350px;
+  background-position-x: -150px;
+  background-position-y: 250px;
 }
 
 @media (max-width: 767px) {
   .content-image-svg-green {
-    background-position-x: -300px;
+    background-position-x: -150px;
+    background-position-y: 700px;
   }
 }
 
