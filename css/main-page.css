@@ -124,7 +124,7 @@ section .wave span {
   color: white;
   margin-top: 90px;
   margin-bottom: 15px;
-  font-size: 55px;
+  font-size: 65px;
   font-weight: bold;
 }
 
@@ -155,6 +155,7 @@ section .wave span {
   margin: 20px;
   color: white;
   font-size: 30px;
+  line-height: 1.7;
   -webkit-text-stroke: 1px white;
 }
 
