@@ -180,13 +180,13 @@ section .wave span {
 .content-image-svg-green {
   background: url(../cos-green.svg);
   background-repeat: no-repeat;
-  background-position-x: -150px;
-  background-position-y: 250px;
+  background-position-x: -250px;
+  background-position-y: 200px;
 }
 
 @media (max-width: 767px) {
   .content-image-svg-green {
-    background-position-x: -150px;
+    background-position-x: -200px;
     background-position-y: 700px;
   }
 }
