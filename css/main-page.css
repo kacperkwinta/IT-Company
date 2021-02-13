@@ -152,6 +152,7 @@ section .wave span {
 
 .content-main-paragraph {
   text-align: justify;
+  line-height: 1.5;
   width: 700px;
   margin: 20px;
   color: white;
