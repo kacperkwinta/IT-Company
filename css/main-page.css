@@ -139,7 +139,7 @@ section .wave span {
 }
 
 .content-image-svg-orange {
-  background: url(/cos-orange.svg);
+  background: url(../cos-orange.svg);
   background-repeat: no-repeat;
   background-position-x: 1350px;
 }
@@ -152,7 +152,7 @@ section .wave span {
 }
 
 .content-image-svg-pink {
-  background: url(/cos-pink.svg);
+  background: url(../cos-pink.svg);
   background-repeat: no-repeat;
   background-position-x: -250px;
 }
@@ -165,7 +165,7 @@ section .wave span {
 }
 
 .content-image-svg-yellow {
-  background: url(/cos-yellow.svg);
+  background: url(../cos-yellow.svg);
   background-repeat: no-repeat;
   background-position-x: 1450px;
 }
@@ -178,7 +178,7 @@ section .wave span {
 }
 
 .content-image-svg-green {
-  background: url(/cos-green.svg);
+  background: url(../cos-green.svg);
   background-repeat: no-repeat;
   background-position-x: 350px;
 }
