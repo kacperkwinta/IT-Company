@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pito$ Company Corp.</title>
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/main-page.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="icon" type="image/x-icon" href="img/cpu.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <nav class="main-navigation" id="main-navigation">
+        <div class="main-navigation__container">
+            <div class="main-navigation__logo">
+                <a href="#" class="main-navigation__logo-link">
+                    <img src="img/cpu.svg" alt="Logo" class="main-navigation__logo-image" />
+                </a>
+            </div>
+            <ul class="main-navigation__menu js-main-navigation__menu">
+                <li class="main-navigation__menu-item">
+                    <a href="#" class="main-navigation__menu-link"> Strona główna </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#who-we-are" class="main-navigation__menu-link">
+                        O nas </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#what-we-do" class="main-navigation__menu-link"> Co robimy </a>
+                </li>
+
+                <li class="main-navigation__menu-item">
+                    <a href="#why-us" class="main-navigation__menu-link"> Dlaczego my </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="#contact" class="main-navigation__menu-link"> Kontakt</a>
+                </li>
+            </ul>
+            <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
+                <img src="navigation.svg" alt="Nawigacja" class="main-navigation__mobile-button-image" />
+            </button>
+        </div>
+    </nav>
+
+    <script src="js/main-navigation.js"></script>
+
+    <section class="main-section">
+        <div class="wave">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header">
+            <h2>Pito$ Company</h2>
+        </div>
+    </section>
+
+    <section class="content-main">
+
+        <div class="content-image">
+            <h2 class="content-header" id="who-we-are">Kim jesteśmy</h2>
+        </div>
+
+        <div class="content-image">
+
+            <img class="main-image" src="img/Web Developer_Isometric.svg" alt="">
+
+            <p class="content-main-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+                explicabo in, accusamus inventore animi mollitia dolor. Et deserunt eius perspiciatis, tempora deleniti
+                quos veniam tenetur incidunt nam quo corporis delectus?
+            </p>
+
+        </div>
+
+        <div class="content-image">
+            <h2 class="content-header" id="what-we-do">Co robimy</h2>
+        </div>
+
+        <div class="content-image">
+
+            <p class="content-main-paragraph">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Repudiandae
+                explicabo in, accusamus inventore animi mollitia dolor. Et deserunt eius perspiciatis, tempora deleniti
+                quos veniam tenetur incidunt nam quo corporis delectus?
+            </p>
+
+            <img class="main-image box-shadow1" src="img/Progress _Isometric.svg" alt="">
+
+        </div>
+
+        <div class="content-image">
+            <h2 class="content-header" id="why-us">Dlaczego my</h2>
+        </div>
+
+        <div class="content-image">
+
+            <img class="main-image" src="img/World wide web_Isometric.svg" alt="">
+
+            <p class="content-main-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam optio similique pariatur quaerat. Eos
+                aspernatur adipisci quidem tempora inventore cum deserunt unde ullam! Quia dicta dolore ducimus unde?
+                Quaerat, dolorem.
+            </p>
+
+        </div>
+
+        <div class="content-image">
+            <h2 class="content-header" id="contact">Kontakt</h2>
+        </div>
+
+        <div class="content-image">
+            <img class="main-image" src="img/Email campaign_Isometric.svg" alt="">
+        </div>
+
+        <div class="content-image">
+            <p class="content-main-paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam optio similique pariatur quaerat. Eos
+                aspernatur adipisci quidem tempora inventore cum deserunt unde ullam! Quia dicta dolore ducimus unde?
+                Quaerat, dolorem.
+            </p>
+        </div>
+
+    </section>
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("main-navigation").style.top = "0";
+            } else {
+                document.getElementById("main-navigation").style.top = "-107px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+
+</body>
+
+</html>
