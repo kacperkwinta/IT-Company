@@ -165,3 +165,31 @@ section .wave span {
     font-size: 22px;
   }
 }
+
+.blob {
+  background-repeat: no-repeat;
+  animation: blob 5s ease-in-out infinite alternate;
+}
+
+.blob-orange {
+  height: 150px;
+  width: 150px;
+  background: url(/img/blob-orange.svg);
+}
+
+.blob-pink {
+  height: 250px;
+  width: 250px;
+  background-repeat: no-repeat;
+  background: url(/img/blob-pink.svg);
+}
+
+@keyframes blob {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-20px);
+  }
+}
