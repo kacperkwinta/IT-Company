@@ -64,8 +64,7 @@ section .wave span {
 .header {
   position: relative;
   color: #fff;
-  font-size: 2em;
-  user-select: none;
+  font-size: 50px;
 }
 
 @media (max-width: 767px) {
@@ -124,7 +123,7 @@ section .wave span {
   color: white;
   margin-top: 90px;
   margin-bottom: 15px;
-  font-size: 65px;
+  font-size: 50px;
   font-weight: bold;
 }
 
