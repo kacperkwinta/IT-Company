@@ -61,15 +61,16 @@ section .wave span {
   }
 }
 
-.header {
-  position: relative;
-  color: #fff;
-  font-size: 50px;
+/*animation main header*/
+
+.letters {
+  color: white;
+  font-size: 55px;
 }
 
 @media (max-width: 767px) {
-  .header {
-    font-size: 25px;
+  .letters {
+    font-size: 30px;
   }
 }
 
@@ -209,4 +210,23 @@ section .wave span {
     font-size: 22px;
     margin: 5;
   }
+}
+
+.ml7 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.7em;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
 }
