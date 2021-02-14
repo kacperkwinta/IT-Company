@@ -72,7 +72,7 @@
 
 @media (max-width: 767px) {
   .content-image-svg-orange {
-    background-position-x: 500px;
+    background-position-x: 600px;
     background-position-y: 70px;
   }
 }
@@ -80,7 +80,7 @@
 .content-image-svg-pink {
   background: url(../img/cos-pink.svg);
   background-repeat: no-repeat;
-  background-position-x: -250px;
+  background-position-x: 150px;
 }
 
 @media (max-width: 767px) {
@@ -107,13 +107,13 @@
   background: url(../img/cos-green.svg);
   background-repeat: no-repeat;
   background-position-x: -250px;
-  background-position-y: 200px;
+  background-position-y: 400px;
 }
 
 @media (max-width: 767px) {
   .content-image-svg-green {
-    background-position-x: -200px;
-    background-position-y: 100px;
+    background-position-x: 300px;
+    background-position-y: 10px;
   }
 }
 
