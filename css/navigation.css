@@ -105,15 +105,18 @@
 .main-navigation__social-icon {
   width: 24px;
   transition: 0.3s;
-  }
+  display: block;
+  margin-top: 13px;
+}
 
 .main-navigation__social-icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 @media (max-width: 991px) {
   .main-navigation__social-icon {
     margin-right: 0;
     width: 22px;
+    margin-top: 15px;
   }
 }
