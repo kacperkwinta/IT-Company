@@ -69,12 +69,10 @@
   font-size: 33px;
   transition: 0.3s;
   line-height: 1.5;
-
 }
 
 .main-navigation__menu-link:hover {
   color: #3066d3;
-
 }
 
 @media (max-width: 991px) {
@@ -101,5 +99,21 @@
   .main-navigation__mobile-button-image {
     width: 30px;
     display: block;
+  }
+}
+
+.main-navigation__social-icon {
+  width: 24px;
+  transition: 0.3s;
+  }
+
+.main-navigation__social-icon:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 991px) {
+  .main-navigation__social-icon {
+    margin-right: 0;
+    width: 22px;
   }
 }
