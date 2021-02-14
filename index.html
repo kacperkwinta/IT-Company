@@ -57,11 +57,10 @@
             </span>
         </div>
     </section>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
     <script>
-        // Wrap every letter in a span
         var textWrapper = document.querySelector('.ml7 .letters');
         textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
@@ -161,7 +160,7 @@
             if (prevScrollpos > currentScrollPos) {
                 document.getElementById("main-navigation").style.top = "0";
             } else {
-                document.getElementById("main-navigation").style.top = "-75px";
+                document.getElementById("main-navigation").style.top = "-90px";
             }
             prevScrollpos = currentScrollPos;
         }
