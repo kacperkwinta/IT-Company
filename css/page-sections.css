@@ -54,8 +54,8 @@
   margin-left: 600px;
 }
 
-@media (max-width:1367px){
-  .content-header-right{
+@media (max-width: 1367px) {
+  .content-header-right {
     margin-left: 0px;
   }
 }
@@ -64,8 +64,8 @@
   margin-left: -650px;
 }
 
-@media (max-width:1367px){
-  .content-header-left{
+@media (max-width: 1367px) {
+  .content-header-left {
     margin-left: 0px;
   }
 }
