@@ -1,6 +1,6 @@
 <svg  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 288 288">
 <linearGradient id="PSgrad_0" x1="70.711%" x2="0%" y1="70.711%" y2="0%">
-  <stop offset="0%" stop-color="rgb(84, 129, 67,0.5)" stop-opacity="1" />
+  <stop offset="0%" stop-color="rgb(84, 129, 67,0.7)" stop-opacity="1" />
   <stop offset="100%" stop-color="rgb(84, 129, 67)" stop-opacity="1" />
 </linearGradient>
 <path fill="url(#PSgrad_0)">

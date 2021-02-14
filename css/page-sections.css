@@ -72,8 +72,8 @@
 
 @media (max-width: 767px) {
   .content-image-svg-orange {
-    background-position-x: 200px;
-    background-position-y: 300px;
+    background-position-x: 500px;
+    background-position-y: 70px;
   }
 }
 
@@ -86,7 +86,7 @@
 @media (max-width: 767px) {
   .content-image-svg-pink {
     background-position-x: -140px;
-    background-position-y: 75px;
+    background-position-y: 65px;
   }
 }
 
@@ -99,7 +99,7 @@
 @media (max-width: 767px) {
   .content-image-svg-yellow {
     background-position-x: 200px;
-    background-position-y: 250px;
+    background-position-y: 50px;
   }
 }
 
@@ -113,7 +113,7 @@
 @media (max-width: 767px) {
   .content-image-svg-green {
     background-position-x: -200px;
-    background-position-y: 700px;
+    background-position-y: 100px;
   }
 }
 
