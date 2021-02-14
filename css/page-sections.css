@@ -50,6 +50,26 @@
   }
 }
 
+.content-header-right {
+  margin-left: 600px;
+}
+
+@media (max-width:1367px){
+  .content-header-right{
+    margin-left: 0px;
+  }
+}
+
+.content-header-left {
+  margin-left: -650px;
+}
+
+@media (max-width:1367px){
+  .content-header-left{
+    margin-left: 0px;
+  }
+}
+
 .content-image {
   display: flex;
   justify-content: center;
