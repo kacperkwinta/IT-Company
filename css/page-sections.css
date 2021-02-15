@@ -152,3 +152,25 @@
     margin: 5;
   }
 }
+
+.content-header-why-us {
+  text-align: center;
+  padding-bottom: 95px;
+}
+
+.offer-header {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .offer-header {
+    font-size: 20px;
+  }
+}
+
+.offer-img {
+  display: block;
+  width: 250px;
+}
