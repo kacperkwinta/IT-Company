@@ -156,6 +156,7 @@
 .content-header-why-us {
   text-align: center;
   padding-bottom: 95px;
+  margin-top: 150px;
 }
 
 .offer-header {
@@ -173,4 +174,8 @@
 .offer-img {
   display: block;
   width: 250px;
+}
+
+.content-offer {
+  margin-bottom: 100px;
 }
