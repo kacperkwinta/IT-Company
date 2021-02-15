@@ -95,7 +95,7 @@
 @media (max-width: 1199px) {
   .main-navigation__mobile-button {
     display: unset;
-    background: #212223;
+    background: black;
     border: none;
     padding: 5px 8px;
     border-radius: 5px;
