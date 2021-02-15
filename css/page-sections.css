@@ -196,3 +196,12 @@
     margin-right: 0px;
   }
 }
+
+@media (max-width: 1457px) {
+  .offer-container-last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+}
