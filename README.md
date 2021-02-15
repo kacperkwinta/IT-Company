@@ -1,3 +1,3 @@
 # IT Company
 
-https://turbobaguettes.github.io/Pitos-Company/
+https://turbobaguettes.github.io/IT-Company/
