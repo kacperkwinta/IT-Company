@@ -69,3 +69,49 @@ section .wave span {
     font-size: 35px;
   }
 }
+
+.ml7 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.7em;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.main-button {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid #212223;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.main-button:hover {
+  background-color: #3066d3;
+}
+
+@media (max-width: 767px) {
+  .main-button {
+    font-size: 20px;
+  }
+}
+
+.main-button-p {
+  padding-top: 20px;
+  text-align: center;
+  justify-content: center;
+}
