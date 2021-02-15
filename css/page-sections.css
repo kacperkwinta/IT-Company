@@ -179,6 +179,12 @@
   margin-bottom: 100px;
 }
 
+@media (max-width: 767px) {
+  .content-offer {
+    margin-bottom: 50px;
+  }
+}
+
 .offer {
   margin-right: 40px;
   margin-left: 40px;
