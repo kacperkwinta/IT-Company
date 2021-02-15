@@ -173,9 +173,21 @@
 
 .offer-img {
   display: block;
-  width: 250px;
+  width: 100%;
 }
 
 .content-offer {
   margin-bottom: 100px;
+}
+
+.offer {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+@media (max-width: 767px) {
+  .offer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
