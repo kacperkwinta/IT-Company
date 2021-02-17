@@ -49,11 +49,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 0;
     pointer-events: none;
-    clip-path: circle(100px at 100% -15%);
-    -webkit-clip-path: circle(100px at 100% -15%);
-    transition: all 0.8s ease-out;
+    opacity: 0;
+    clip-path: circle(100px at 90% 1%);
+    -webkit-clip-path: circle(100px at 90% 1%);
+    transition: all 1s ease;
   }
 }
 

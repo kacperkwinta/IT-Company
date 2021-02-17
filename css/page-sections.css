@@ -209,3 +209,21 @@
 .what-we-do-header {
   padding-bottom: 50px;
 }
+
+.lighthouse {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lighthouse-stats {
+  margin: 10px;
+  border-radius: 50%;
+  background: #1f3228;
+  border: 8px solid #0dc366;
+  color: #0dc366;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: 30px;
+}
