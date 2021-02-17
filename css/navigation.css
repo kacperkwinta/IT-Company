@@ -53,7 +53,7 @@
     pointer-events: none;
     clip-path: circle(100px at 100% -15%);
     -webkit-clip-path: circle(100px at 100% -15%);
-    transition: all 0.7s ease-out;
+    transition: all 1s ease-out;
   }
 }
 
