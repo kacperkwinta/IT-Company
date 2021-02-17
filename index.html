@@ -107,6 +107,9 @@
 
         </div>
 
+        <div class="content-image">
+            <h2 class="content-header what-we-do-header">Our specialization</h2>
+        </div>
 
         <div class="content-image content-offer">
 
@@ -196,43 +199,8 @@
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
-    <script>
-        var textWrapper = document.querySelector('.ml7 .letters');
-        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-        anime.timeline({ loop: true })
-            .add({
-                targets: '.ml7 .letter',
-                translateY: ["1.1em", 0],
-                translateX: ["0.55em", 0],
-                translateZ: 0,
-                rotateZ: [180, 0],
-                duration: 500,
-                easing: "easeOutExpo",
-                delay: (el, i) => 50 * i
-            }).add({
-                targets: '.ml7',
-                opacity: 0,
-                duration: Infinity,
-                easing: "easeOutExpo",
-                delay: 1000
-            });
-    </script>
-
-    <script>
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function () {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.getElementById("main-navigation").style.top = "0";
-            } else {
-                document.getElementById("main-navigation").style.top = "-90px";
-            }
-            prevScrollpos = currentScrollPos;
-        }
-    </script>
-
+    <script src="js/main-title.js"></script>
+    <script src="/js/hidden-menu.js"></script>
     <script src="https://skrypt-cookies.pl/id/3b498a2ca2bd4e52.js"></script>
 
 </body>
