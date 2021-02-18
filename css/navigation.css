@@ -99,10 +99,17 @@
   color: #3066d3;
 }
 
+@media (max-width: 1199px) {
+  .main-navigation__menu-link {
+    font-size: 26px;
+    line-height: 3;
+  }
+}
+
 @media (max-width: 991px) {
   .main-navigation__menu-link {
     font-size: 22px;
-    line-height: 1.5;
+    line-height: 2.5;
   }
 }
 
