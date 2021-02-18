@@ -61,8 +61,8 @@
     opacity: 1;
     pointer-events: unset;
     transform: unset;
-    clip-path: circle(1590px at 110% -20%);
-    -webkit-clip-path: circle(1590px at 110% -20%);
+    clip-path: circle(1620px at 110% -20%);
+    -webkit-clip-path: circle(1620px at 110% -20%);
     pointer-events: all;
   }
 }
