@@ -69,9 +69,8 @@
 
 @media (max-width: 767px) {
   .main-navigation__menu--open {
-    
-    clip-path: circle(1100px at 120% -10%);
-    -webkit-clip-path: circle(1100px at 120% -10%);
+    clip-path: circle(1260px at 120% -10%);
+    -webkit-clip-path: circle(1260px at 120% -10%);
   }
 }
 
