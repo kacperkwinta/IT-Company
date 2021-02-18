@@ -215,6 +215,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .lighthouse-stats {
@@ -225,6 +226,7 @@
   color: #0dc366;
   height: 200px;
   width: 200px;
+  line-height: 190px;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
 }
