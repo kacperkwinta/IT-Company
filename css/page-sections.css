@@ -119,13 +119,6 @@
   }
 }
 
-.content-image-svg-green {
-  background: url(../img/cos-green.svg);
-  background-repeat: no-repeat;
-  background-position-x: -250px;
-  background-position-y: 400px;
-}
-
 @media (max-width: 767px) {
   .content-image-svg-green {
     background-position-x: 300px;
@@ -209,24 +202,4 @@
 .what-we-do-header {
   padding-bottom: 50px;
   text-align: center;
-}
-
-.lighthouse {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 40px;
-}
-
-.lighthouse-stats {
-  margin: 10px;
-  border-radius: 50%;
-  background: #1f3228;
-  border: 8px solid #0dc366;
-  color: #0dc366;
-  height: 200px;
-  width: 200px;
-  line-height: 190px;
-  text-align: center;
-  font-size: 25px;
 }
