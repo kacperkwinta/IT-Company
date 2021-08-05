@@ -2,4 +2,4 @@
 
 Simple one-page template.
 
-https://turbobaguettes.github.io/IT-Company/
+https://kacperkwinta.github.io/IT-Company/
